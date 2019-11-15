@@ -1,0 +1,14 @@
+import java.util.regex.*;
+import java.util.Scanner;
+class Test
+{
+  public static void main(String args[])
+  {
+    Pattern p = Pattern.compile("is");
+    String s[] = p.split("the is quick is brown is fox"');
+    for(String s1:s)
+    {
+      System.out.println(s1);
+      }
+   }
+}
