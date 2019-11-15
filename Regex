@@ -1,0 +1,15 @@
+import java.util.regex.*;
+class Test
+{
+  int ctr = 0;
+  public static void main(System args[])
+  {
+    Pattern p = Pattern.compile("anu");
+    Matcher m = p.matcher("anuanuradhaanu")'
+    while(m.find())
+    {
+      ctr = ctr+1;
+      }
+      System.out.println(ctr);
+      }
+  }
