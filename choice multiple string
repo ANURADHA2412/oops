@@ -1,0 +1,26 @@
+import java.util.regex.*;
+class Test
+{
+  
+  public static void main(System args[])
+  {
+    Pattern p = Pattern.compile("[789][0-9]{9}");
+    Scanner s = new Scanner(System.in);
+    Matcher m = p.matcher(s.nextLine());
+    TreeSet t = new TreeSet();
+    String choice = s.next();
+    while(m.find())
+    {
+      t.add(m.group());
+      }
+      System.out.println(t);
+      if(t.contains(choice)
+      {
+      System.out.println("found");
+      }
+      else
+      {
+      System.out.println("not found");
+  }
+  }
+  }
