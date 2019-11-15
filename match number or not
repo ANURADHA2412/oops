@@ -1,0 +1,17 @@
+import java.util.regex.*;
+class Test
+{
+  public static void main(String args[])
+  {
+    Pattern p = Pattern.compile("[789][0-9]{9}");
+    Matcher m = p.matcher(args[0]);
+    if(m.find())
+    {
+      System.out.println("matches")
+      }
+      else
+      {
+        System.out.println("not matches")
+        }
+      }
+    }
