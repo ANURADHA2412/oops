@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Time_converter {
+    public static void main(String[] args) {
+        Scanner vj=new Scanner(System.in);
+        System.out.println("ENTER SECONDS-");
+        int Second=vj.nextInt();
+        int Hours = Second/3600;
+        int temp= Second%3600;
+        int Minutes=temp/60;
+        int Seconds=temp%60;
+        System.out.println(Hours+"HOURS, "+Minutes+"MINUTES, "+Seconds+"SECONDS!");
+    }
+}
