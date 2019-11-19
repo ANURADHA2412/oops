@@ -1,0 +1,27 @@
+/*created by- Anuradha Bansal
+date-19/11/2019
+compiled on-intellij idea ultimate.
+program name-Generics_2
+
+*/
+
+package Practice8;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Generics_2 {
+    public static void main(String[] args) {
+        List<String> l2=new ArrayList<String>();
+        l2.add("anuradha");
+        l2.add("bansal");
+        l2.add("prateek");
+        l2.add("sharma");
+        l2.add("paari");
+        l2.add("gupta");
+        l2.add("ayushi ");
+        System.out.println(l2);
+    }
+
+
+}
